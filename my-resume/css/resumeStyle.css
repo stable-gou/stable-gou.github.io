@@ -198,6 +198,29 @@
     color: #333;
 }
 
+.about a.project {
+
+    border-left: 4px solid #ff8bb3;
+    /*盒子内左边距*/
+    padding-left: 10px;
+    /*字体大小*/
+    font-size: 1.17em;
+    /*行高*/
+    line-height: 1em;
+    /*加粗*/
+    font-weight: 700;
+    /*黑色*/
+    color: #333;
+    letter-spacing: .1em;
+    /*去掉下划线*/
+    text-decoration: none;
+    /*padding-bottom: 20px;*/
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    /*color: coral;*/
+}
+
 .rightSide p.Text {
     /*padding-left: 10px;*/
     text-indent: 2em;
