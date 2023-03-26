@@ -1,0 +1,236 @@
+.page1 {
+    /*定义页面与A4纸一样大*/
+    /*居中*/
+    /*盒子外边距边距自动*/
+    margin-left: auto;
+    /*盒子外右边距自动*/
+    margin-right: auto;
+    /*宽度*/
+    width: 781px;
+    /*长度*/
+    height: 1105px;
+    /*超出A4纸部分隐藏*/
+    overflow: hidden;
+    /*背景色*/
+    background-color: #f9f9f9;
+}
+
+/*页面的顶部盒子*/
+.top {
+    /*网格布局*/
+    display: grid;
+    /*两列，比例：1：2*/
+    grid-template-columns: 1fr 2fr;
+    /*背景色*/
+    /*background-color: yellow;*/
+    /*盒子四边内边距*/
+    padding: 30px 30px 30px 0;
+}
+
+.top .imgBx {
+    /*相对位置*/
+    position: relative;
+    /*宽度*/
+    width: 100%;
+    /*弹性布局*/
+    display: flex;
+    /*flex子元素居中对齐*/
+    align-items: center;
+    /*盒子左内边距*/
+    padding-left: 35px;
+}
+
+.imgBx .box {
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    /*元素外边框圆角*/
+    border-radius: 50%;
+    overflow: hidden;
+    /*控制图片、视频等元素的纵横比*/
+    aspect-ratio: 1;
+    /*background-color: yellow;*/
+}
+
+.imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*指定元素的内容应该如何去适应指定容器的高度与宽度*/
+    object-fit: cover;
+    /*background-color: yellow;*/
+}
+
+.top .profileText {
+    position: relative;
+    /*padding: 40px;*/
+    display: flex;
+    align-items: center;
+}
+
+.top .profileText h3 {
+    /*字体大小*/
+    font-size: 2em;
+    /*字间距离*/
+    letter-spacing: .1em;
+    /*行高*/
+    line-height: 1.2em;
+    /*加粗*/
+    font-weight: 700;
+    /*字体样式*/
+    font-family: 楷体;
+    align-items: center;
+    color: #333;
+}
+
+.profileText h4 {
+    position: relative;
+    font-size: 1em;
+    /*加粗*/
+    font-weight: 600;
+    font-family: Times New Roman;
+    top: -10px;
+    color: #666;
+    /*color: red;*/
+}
+
+/*下部*/
+.contentBox {
+    /*网格布局*/
+    display: grid;
+    /*两列，比例：1：2*/
+    grid-template-columns: 1fr 2fr;
+    /*背景色*/
+    /*background-color: lightblue;*/
+}
+
+/*下部左边*/
+.contentBox .leftSide {
+    /*background-color: darkmagenta;*/
+}
+
+.leftSide h3 {
+    border-left: 4px solid #ff8bb3;
+    /*盒子内左边距*/
+    padding-left: 10px;
+    /*行高*/
+    line-height: 1em;
+    /*加粗*/
+    font-weight: 700;
+    /*黑色*/
+    color: #333;
+    letter-spacing: .1em;
+    /*padding-bottom: 20px;*/
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.contentBox ul {
+    position: relative;
+    margin-left: 10px;
+}
+
+.contentBox ul li {
+    list-style: none;
+    margin: 10px 0;
+    line-height: 1em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+
+.contentBox ul.interest {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contentBox ul.interest li {
+    display: flex;
+    /*align-items: center;*/
+    align-content: center;
+    /*align-self: center;*/
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/*下部右边*/
+.rightSide {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.rightSide h3 {
+    border-left: 4px solid #ff8bb3;
+    /*盒子内左边距*/
+    padding-left: 10px;
+    /*行高*/
+    line-height: 1em;
+    /*加粗*/
+    font-weight: 700;
+    /*黑色*/
+    color: #333;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0;
+}
+
+/*技能盒子*/
+.about.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    /*grid-template-columns: 150px 1fr;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.rightSide p.Text {
+    /*padding-left: 10px;*/
+    text-indent: 2em;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-right: 30px;
+}
+
+/*项目或实习盒子*/
+.about div.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*外框边距*/
+    margin-left: 10px;
+    padding-top: 5px;
+    color: #3590d2;
+    font-size: 14px;
+}
+
+.page2 {
+    /*定义页面与A4纸一样大*/
+    /*居中*/
+    /*盒子外边距边距自动*/
+    margin-left: auto;
+    /*盒子外右边距自动*/
+    margin-right: auto;
+    /*宽度*/
+    width: 781px;
+    /*长度*/
+    height: 1105px;
+    /*超出A4纸部分隐藏*/
+    overflow: hidden;
+    /*背景色*/
+    background-color: #f9f9f9;
+    page-break-before: always;
+}
