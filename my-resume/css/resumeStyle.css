@@ -111,6 +111,17 @@
     /*background-color: darkmagenta;*/
 }
 
+.leftSide span.text {
+    font-family: 楷体;
+    /*color: #3590d2;*/
+    font-size: 15px;
+}
+
+.leftSide span.text-link {
+    color: #3590d2;
+    font-size: 12px;
+}
+
 .leftSide h3 {
     border-left: 4px solid #ff8bb3;
     /*盒子内左边距*/
@@ -225,6 +236,8 @@
     /*padding-left: 10px;*/
     text-indent: 2em;
     font-size: 15px;
+    font-family: 楷体;
+    line-height: 1.4em;
     margin-left: 10px;
     padding-right: 30px;
 }
