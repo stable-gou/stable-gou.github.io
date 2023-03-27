@@ -139,6 +139,30 @@
     margin-left: 50px;
 }
 
+a.resume {
+    /*盒子内左边距*/
+    /*padding-left: 10px;*/
+    /*字体大小*/
+    /*font-size: 1.17em;*/
+    font-size: 0.6em;
+    /*行高*/
+    line-height: 2em;
+    /*加粗*/
+    font-weight: 700;
+    /*字体颜色*/
+    color: #3590d2;
+    /*letter-spacing: .1em;*/
+    /*去掉下划线*/
+    text-decoration: none;
+    /*padding-bottom: 20px;*/
+    /*margin-bottom: 5px;*/
+    /*margin-top: 5px;*/
+    /*margin-left: 10px;*/
+    /*color: coral;*/
+    /*background-color: red;*/
+}
+
+
 .contentBox ul {
     position: relative;
     margin-left: 10px;
